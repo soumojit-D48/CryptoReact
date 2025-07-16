@@ -1,33 +1,3 @@
-// import React, { useEffect, useState } from 'react'
-// import Chart from 'react-google-charts'
-
-// const Linechart = ({historicalData}) => {
-
-//     const [data, setData] = useState([["Date", "Price"]])
-
-//     useEffect(() => {
-//         let dataCopy = [["Date", "Prices"]]
-//         if(historicalData.prices){
-//             historicalData.prices.map((item) => {
-//                 dataCopy.push([`${new Date(item[0]).toLocaleDateString().slice(0,-5)}`, item[1]])
-//             })  // toLocaleDateString ->  12/07/2025 // slice(0,-5)->  from here we remove /2025 these 5 chars form end
-//             setData(dataCopy)
-//         }
-//     },[historicalData])
-
-
-//   return (
-//     <Chart
-//         chartType='LineChart'
-//         data={data}
-//         height="100%"
-//         legendToggle
-//     />
-//   )
-// }
-
-// export default Linechart
-
 import React, { useContext, useEffect, useState } from 'react';
 import { Chart } from 'react-google-charts';
 import { CoinContext } from '../context/CoinContext';

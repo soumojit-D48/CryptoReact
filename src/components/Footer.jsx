@@ -3,7 +3,7 @@ import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-[#0d0d0d] text-gray-300 border-t border-[#5f5d5f]">
+    <div className="w-full bg-[#0d0d0d] text-gray-300 border-t border-[#5f5d5f]">
       <div className="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
         
         {/* About */}
@@ -47,7 +47,7 @@ const Footer = () => {
       <div className="text-center text-sm text-gray-400 border-t border-[#5f5d5f] py-4">
         © 2025 CryptoPrice — All Rights Reserved.
       </div>
-    </footer>
+    </div>
   );
 };
 
