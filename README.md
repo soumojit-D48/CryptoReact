@@ -71,12 +71,15 @@ Clone the repository
 git clone https://github.com/soumojit-D48/CryptoReact.git
 
 cd crypto-tracker
+
 Install dependencies
 
 npm install
+
 Run the development server
 
 npm run dev
+
 Open http://localhost:5173 in your browser
 
 
