@@ -96,10 +96,10 @@ React hooks: useEffect, useState, useContext
 
 Chart integrations
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License.
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 CoinGecko API
 
 React
