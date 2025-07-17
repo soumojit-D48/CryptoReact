@@ -110,7 +110,3 @@ Google Charts
 Vite
 
 Tailwind CSS
-
-yaml
-Copy
-Edit
