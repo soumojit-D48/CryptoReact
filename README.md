@@ -1,13 +1,115 @@
-# React + Vite
+# 📊 Crypto Price Tracker (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application built using **React.js**, **Context API**, and **Chart Visualization**, which lets users track real-time cryptocurrency data including prices, charts, and trends.
 
-Currently, two official plugins are available:
+> 🪙 Built with React + CoinGecko API + Google Charts (or Recharts)  
+> ⚡️ Powered by Vite for blazing-fast development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔗 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# CryptoReact
+👉 [View Live Site](https://crypto-price-tracker-one-phi.vercel.app)
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+├── assets/              # Image assets (logo, icons)
+│   ├── logo.png
+│   └── arrow_icon.png
+│
+├── components/          # Reusable UI components
+│   ├── Footer.jsx
+│   ├── Navbar.jsx
+│   └── Linechart.jsx
+│
+├── context/             # Global state using Context API
+│   └── CoinContext.jsx
+│
+├── pages/               # Main application pages
+│   ├── Home.jsx
+│   └── Coin.jsx
+│
+├── App.jsx              # Root component
+├── main.jsx             # React DOM rendering entry
+├── index.css            # Global styles
+```
+
+## 🚀 Features
+🔄 Real-time price updates via CoinGecko API
+
+📈 Interactive line charts for coin history
+
+🔍 View detailed info of each coin (volume, market cap, supply, etc.)
+
+🧠 Global state management with React Context API
+
+=> Currency selector (USD, INR, EUR)
+
+## 📦 Tech Stack
+⚛️ React + Vite
+
+🌐 CoinGecko API
+
+📊 Google Charts / Recharts
+
+💅 Tailwind CSS 
+
+🧠 Context API for state
+
+🗂️ Organized by components, pages, context
+
+## 📌 Getting Started
+Clone the repository
+
+bash
+Copy
+Edit
+git clone https://github.com/soumojit-D48/crypto-tracker.git
+cd crypto-tracker
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+Run the development server
+
+bash
+Copy
+Edit
+npm run dev
+Open http://localhost:5173 in your browser
+
+
+## 🧠 Concepts Covered
+Fetching & using third-party API data
+
+React Router navigation 
+
+Custom reusable components
+
+React hooks: useEffect, useState, useContext
+
+Chart integrations
+
+📜 License
+This project is licensed under the MIT License.
+
+🙌 Acknowledgements
+CoinGecko API
+
+React
+
+Google Charts
+
+Vite
+
+Tailwind CSS
+
+yaml
+Copy
+Edit
