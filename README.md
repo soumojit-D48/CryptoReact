@@ -39,6 +39,7 @@ src/
 ```
 
 ## 🚀 Features
+
 🔄 Real-time price updates via CoinGecko API
 
 📈 Interactive line charts for coin history
@@ -50,6 +51,7 @@ src/
 => Currency selector (USD, INR, EUR)
 
 ## 📦 Tech Stack
+
 ⚛️ React + Vite
 
 🌐 CoinGecko API
@@ -63,6 +65,7 @@ src/
 🗂️ Organized by components, pages, context
 
 ## 📌 Getting Started
+
 Clone the repository
 
 bash
@@ -86,6 +89,7 @@ Open http://localhost:5173 in your browser
 
 
 ## 🧠 Concepts Covered
+
 Fetching & using third-party API data
 
 React Router navigation 
@@ -97,9 +101,11 @@ React hooks: useEffect, useState, useContext
 Chart integrations
 
 ## 📜 License
+
 This project is licensed under the MIT License.
 
 ## 🙌 Acknowledgements
+
 CoinGecko API
 
 React
