@@ -68,22 +68,14 @@ src/
 
 Clone the repository
 
-bash
-Copy
-Edit
-git clone https://github.com/soumojit-D48/crypto-tracker.git
+git clone https://github.com/soumojit-D48/CryptoReact.git
+
 cd crypto-tracker
 Install dependencies
 
-bash
-Copy
-Edit
 npm install
 Run the development server
 
-bash
-Copy
-Edit
 npm run dev
 Open http://localhost:5173 in your browser
 
